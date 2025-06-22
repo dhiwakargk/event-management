@@ -51,7 +51,7 @@ export default {
     methods:{
           async GetData()
            {
-              await axios.get("http://localhost:3000/").then(async(response)=>{
+              await axios.get("https://event-management-backend-sa3x.onrender.com/").then(async(response)=>{
                   this.details=response.data
               })
               console.log(await this.details[0])
@@ -59,7 +59,7 @@ export default {
            GetId(ids)
            {
               console.log("clicked id:"+ids)
-              window.location.href=`http://localhost:8080/team/${ids}`
+              window.location.href=`https://event-management-backend-sa3x.onrender.com/team/${ids}`
            }
     }
 }
