@@ -132,7 +132,7 @@ export default {
         },
         SendToBackend()
         {
-          const sendTeam=axios.post("http://localhost:3000/team",
+          const sendTeam=axios.post("https://event-management-backend-sa3x.onrender.com/team",
           {
               team_name:this.Team_Name,
               team_leader:this.Team_Leader,
