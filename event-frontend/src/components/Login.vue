@@ -54,7 +54,7 @@ export default {
             
             if(this.email!="" && this.password!="")
             {
-                let login_user=axios.post("http://localhost:3000/login",{
+                let login_user=axios.post("https://event-management-backend-sa3x.onrender.com/login",{
                     email:this.email,
                     password:this.password
                 }).then((res)=>{
