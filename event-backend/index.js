@@ -6,7 +6,7 @@ const DB=require("./DB_operation")
 const TeamDB=require("./TeamDB")
 const Login=require("./login")
 app.use(cors({
-  origin: 'https://event-management-frontend-rld6.onrender.com',
+  origin: 'https://event-management-frontend-itab.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
