@@ -35,7 +35,7 @@ import axios from 'axios';
         handleSubmit()
         {
             console.log("Inside submit function")
-            const user_data=axios.post("http://localhost:3000/create_user",{
+            const user_data=axios.post("https://event-management-backend-sa3x.onrender.com/create_user",{
                email:this.email,
                password:this.password
             }).then((res)=>{
