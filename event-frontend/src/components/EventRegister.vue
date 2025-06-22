@@ -137,7 +137,7 @@ export default {
         {
            if(this.category!='' && this.domain!='' && this.imgsrc!='' && this.description!='' && this.startDate!='' && this.endDate!='' && this.teamsize!='')
            {
-              const datasender=axios.post("http://localhost:3000/data",{
+              const datasender=axios.post("https://event-management-backend-sa3x.onrender.com/data",{
                 category:this.category,
                 domain:this.domain,
                 description:this.description,
