@@ -59,7 +59,7 @@ export default {
            GetId(ids)
            {
               console.log("clicked id:"+ids)
-              window.location.href=`https://event-management-backend-sa3x.onrender.com/team/${ids}`
+              window.location.href=`https://event-management-frontend-itab.onrender.com/team/${ids}`
            }
     }
 }
